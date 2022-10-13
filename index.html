@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moda</title>
+<!-- Css interno -->
+    <style>
+        /*Selector Body, para aplicar color de fondo o mas propiedades*/
+        body{
+            background-color: black;
+            
+           
+        }
+        a{
+
+            color: #fff;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/*Tipo letra*/
+            font-size: 18px;/*Tamaño letra*/
+            text-decoration: none; /*Quita subrayado*/
+            margin-left: 5px; /*Margen a la izquierda*/
+
+        }
+
+        a:hover{
+
+            color: aqua;
+        }
+
+        h1,h2,h3{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        h1{
+            font-size: 24px;
+            text-align: center;
+            color: white;
+        }
+
+        th,td,tr,table{
+
+            border: 2px solid #fff;
+            color: #fff;
+
+
+        }
+    </style>
+</head>
+<body>
+    
+<a href="index.html"><img src="https://upupa.com.br/wp-content/uploads/2018/05/logotipo-para-moda-fitness.jpg" alt="Moda" title="moda"></a>
+<br>
+<a href="https://www.exito.com/" target="_blank" rel="noopenernoreferrer">Exito</a>
+<a href="Mailto">Email</a>
+
+<h1>Novedades</h1>
+
+
+<!-- tablas sin elemento para organizarlos videos formularios -->
+
+<!-- etiqueta principal de la tabla es table , tr es para las filas, td es para las celdas, th 
+para encabezados -->
+
+<table>
+<tr>
+<th>Nombre</th>
+<th>Imagen</th>
+<th>precio</th>
+</tr>
+
+<tr>
+    <td>Camiseta</td>
+    <td><img src="https://th.bing.com/th/id/R.e3b1b10f2bd82877b4c50055d5cbcad2?rik=M467Q0kTsiS6Og&pid=ImgRaw&r=0" alt="" height="500px" width="500px"></td>
+<td>$50.000</td>
+</tr>
+
+</table>
+
+<!-- Crear un formulario -->
+<h2>Formulario de contacto</h2>
+<table>
+    <!-- etiqueta principal del formulario es forms -->
+    <form action="mailto:aprendesoftware@poliandino.edu.co" method="post">
+    <tr>
+        <td>
+            <!-- campo de texto o input-->
+            <input type="text" placeholder="Escribe tu nombre" required>
+
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <!-- campo de texto o input-->
+            <input type="text" placeholder="Escribe tu apellido" required>
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <!-- campo de texto o input-->
+            <input type="email" placeholder="Escribe tu Email" required>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <!-- campo de texto o input-->
+            <input type="text" placeholder="Escribe tu asunto" required>
+
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <!-- Select -->
+
+            <select name="opciones" id="">
+                <option value="Seleccionar">Seleccionar</option>
+                <option value="Cotizar">Cotizar</option>
+                <option value="Reclamo">Reclamo</option>
+            </select>
+
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <!-- Text Area-->
+
+            <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
+
+
+        </td>
+    </tr>
+
+    
+    <tr>
+        <td>
+            <!-- Boton enviar-->
+
+            <input type="submit" value="Enviar"> 
+            <!-- borrar o cancelar-->
+            <input type="reset" value="borrar">
+
+
+        </td>
+    </tr>
+
+
+    </form>
+
+
+</table>
+
+<!--fORMULARIO GOOGLE-->
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBaby4I6X_Dtg9UJl3CP8C2FrNwtsmNnZedhzK8nhSAu4kDw/viewform?embedded=true" width="640" height="1327" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
+</body>
+</html>
